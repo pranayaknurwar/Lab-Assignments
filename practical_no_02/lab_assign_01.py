@@ -10,3 +10,4 @@ else:
     print("You are an adult.")
 
 print("Have a great day!")
+print("Stay Safe")
