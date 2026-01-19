@@ -1,13 +1,13 @@
+V = float(input("Enter voltage: "))
+R = float(input("Enter resistance: "))
 
-name = input("Enter your name: ")
-age = int(input("Enter your age: "))
+I = V / R
 
-print(f"Hello, {name}!")
+print("Current (I):", I, "A")
 
-if age < 18:
-    print("You are a minor.")
+if I < 0.5:
+    print("Low current")
+elif 0.5 <= I and I<= 2:
+    print("Normal current")
 else:
-    print("You are an adult.")
-
-print("Have a great day!")
-print("Stay Safe")
+    print("High current")
