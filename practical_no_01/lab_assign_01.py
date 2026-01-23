@@ -3,7 +3,6 @@ emp_id = input("Enter Employee ID: ")
 department = input("Enter Department: ")
 basic_salary = float(input("Enter Basic Salary: "))
 
-
 DA = 0.92 * basic_salary
 HRA = 0.58 * basic_salary
 TA = 0.30 * basic_salary
