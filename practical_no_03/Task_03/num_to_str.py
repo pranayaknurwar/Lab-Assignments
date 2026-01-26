@@ -5,3 +5,5 @@ if 1<=n<=150:
         print(f"{i}",end="")
 else:
     print("Enter the number in range of 1 to 150.")
+
+    # Done
